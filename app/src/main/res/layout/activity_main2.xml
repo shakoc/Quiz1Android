@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:paddingHorizontal="55dp"
+    >
+
+    <ImageView
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/user" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Add a vehicle"
+        android:textSize="30dp"
+        android:textColor="#0c245b"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:lineSpacingExtra="10dp"
+        android:textColor="#0c245b"
+        android:text="This information will help us provide the most relevant data"
+        android:textSize="26dp"
+
+         />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/add_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bluebg"
+        android:layout_marginTop="50dp"
+        android:text="Add +"
+        android:textAllCaps="false"
+        android:textColor="@color/white"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/skip_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/greybg"
+        android:text="Skip"
+        android:textAllCaps="false"
+        android:textColor="#0c245b" />
+
+</LinearLayout>
